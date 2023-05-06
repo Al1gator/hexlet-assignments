@@ -6,7 +6,7 @@ import java.util.List;
 
 // BEGIN
 public static boolean scrabble(String kit, String word) {
-    List<String> list = new ArrayList<>()
+    List<String> list = new ArrayList<>();
 
     for (int i = 0; i < kit.length(); i++) {
         list.add(kit.substring(i, i + 1));
