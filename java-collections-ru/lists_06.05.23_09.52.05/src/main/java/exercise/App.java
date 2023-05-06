@@ -14,7 +14,7 @@ public static boolean scrabble(String kit, String word) {
 
     for (int i = 0; i < word.length(); i++) {
 
-        if (list.contains(word.substring(i, i + 1))) {
+        if (list.contains(word.substring(i, i + 1).toLowerCase())) {
             list.remove(word.substring(i, i + 1));
           } else {
           return false;
