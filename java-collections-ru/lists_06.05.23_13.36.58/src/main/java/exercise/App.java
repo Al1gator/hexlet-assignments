@@ -14,10 +14,11 @@ class App {
         }
 
         for (int i = 0; i < word.length(); i++) {
-            if (list.contains(word.substring(i, i + 1).toLowerCase())) {
+
+            if (list.contains(word.substring(i, i + 1))) {
                 list.remove(word.substring(i, i + 1));
             } else {
-                return false;
+            return false;
             }
         }
 
